@@ -1,5 +1,9 @@
 class Solution {
 public:
+//     Time complexcity
+//     o(n)
+//     space complexcity
+//     o(1)
     int removeDuplicates(vector<int>& nums) {
         int index = 0;
         for(int i = 1; i < nums.size(); i++)
