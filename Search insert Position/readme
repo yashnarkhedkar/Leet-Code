@@ -6,3 +6,10 @@ Output: 1 => this are indexes
 
 Input: nums = [1,3,5,6], target = 7
 Output: 4 => this are indexes
+
+**IMPORTANT**
+EDGE CASE
+Input: [1,3,5,6], target = 0
+Output: 0
+that's why we written s <= e
+& in last of code not return s+1
