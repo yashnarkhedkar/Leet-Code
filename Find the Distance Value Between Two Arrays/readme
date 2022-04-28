@@ -1,0 +1,22 @@
+Calculate the distance between arr1[i] and arr2[j] and find the number of elements in arr1 where it's distances are NOT LESS THAN or EQUAL TO d.
+
+Example:
+Input: arr1 = [4,5,8], arr2 = [10,9,1,8], d = 2
+
+For arr1[0] = 4 we have:
+| 4 - 10 | = 6 > d=2
+| 4 - 9 | = 5 > d=2
+| 4 - 1 | = 3 > d=2
+| 4 - 8 | = 4 > d=2
+This is valid because all distances are MORE THAN d
+
+For arr1[2] = 8 we have:
+| 8 - 10 | = 2 <= d=2 <-- This is INVALID. You can just stop here.
+| 8 - 9 | = 1 <= d=2
+| 8 - 1 |=7 > d=2
+| 8 - 8 | = 0 <= d=2
+This is INVALID because there is at least 1 distance that is LESS THAN or EQUAL TO d
+
+Another Example:
+
+image https://assets.leetcode.com/users/images/07de6aeb-e720-431b-854c-2f633be5219e_1649212001.5952659.png
