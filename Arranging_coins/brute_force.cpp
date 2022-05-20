@@ -7,6 +7,6 @@ int arrangingCoins(int n)
     rows++;
     n -= rows;
   }
-  
+
   return rows - 1;
 }
