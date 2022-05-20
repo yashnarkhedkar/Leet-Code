@@ -1,7 +1,7 @@
 int arrangingCoins(int n)
 {
   int rows = 1;
-  
+
   while(n > 0)
   {
     rows++;
