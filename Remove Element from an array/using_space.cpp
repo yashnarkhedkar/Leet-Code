@@ -4,7 +4,7 @@ int removeElement(vector<int>&nums, int val)
   
   for(int i = 0; i < nums.size(); i++)
   {
-    if(nums[i] == val)
+    if(nums[i] != val)
     {
       v.push_back(nums[i]);
     }
