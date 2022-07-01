@@ -14,7 +14,7 @@ public:
             while(s <= e)
             {
                 mid = s + (e-s)/2;
-                
+                   
                 if(abs(arr1[i] - arr2[mid]) <= d)
                 {
                     temp = false;   
