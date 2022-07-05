@@ -11,7 +11,7 @@ Output: 2 3 5 10 15 20 40
 Explanation: After merging the two linked
 lists, we have merged list as 2, 3, 5,
 10, 15, 20, 40.
-Example 2:
+Example 2: 
 
 Input:
 N = 2, M = 2
