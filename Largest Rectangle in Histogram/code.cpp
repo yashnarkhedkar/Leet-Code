@@ -16,7 +16,7 @@ private:
             s.push(i);
         }
         return ans;
-    }
+    } 
     
     vector<int> prevSmallerElement(vector<int>& heights, int n){
         stack<int>s;
