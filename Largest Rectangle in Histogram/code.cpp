@@ -14,7 +14,7 @@ private:
             //ans is stack ka top
             ans[i] = s.top();
             s.push(i);
-        }
+        } 
         return ans;
     } 
     
