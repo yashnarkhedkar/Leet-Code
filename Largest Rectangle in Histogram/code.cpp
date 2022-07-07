@@ -9,7 +9,7 @@ private:
             int curr = arr[i];
             while(s.top() != -1 && arr[s.top()] >= curr)
             {
-                s.pop();
+                s.pop();  
             }
             //ans is stack ka top
             ans[i] = s.top();
