@@ -1,0 +1,33 @@
+You are given a singly linked list of integers.
+Your task is to swap every two adjacent nodes, and return the head of the modified, linked list.
+For Example:
+We have a linked list 1->2->3->4->5->6->7 and so on. You are supposed to swap pairs of a linked list like swap (1,2), (3,4), (5,6), and so on.
+Note:
+1. You may not modify the data in the list’s nodes; only nodes themselves may be changed. Because imagine a case where a node contains many fields, so there will be too much unnecessary swap.
+
+2. If a pair of a node does not exist, then leave the node as it is.
+Input Format :
+The input contains the elements of the singly linked list separated by a single space and terminated by -1. Hence, -1 would never be a list element.
+Output Format :
+For each input, print a single line containing the same number of integers as in the list, in swapped order.
+Note :
+You do not need to print anything, it has already been taken care of just implement the given function.
+Constraints :
+0 <= N <= 5 * 10 ^ 5
+-10 ^ 9 <= DATA <= 10 ^ 9 and DATA != -1
+
+Where ‘N’ is the length of the linked list and 'DATA' is data in each node.
+
+Time limit: 1 sec.
+Sample Input 1:
+11 21 13 14 15 -1
+Sample Output 1:
+21 11 14 13 15 -1
+Explanation Of The Sample Input1:
+Swap 11 with 21 then swap 13 with 14 and 15 has no pair so leave that node as it is.
+Sample Input 2:
+-13 14 -21 18 -20 30 -1
+Sample Output 2:
+14 -13 18 -21 30 -20 -1
+Explanation Of The Sample Input 2:
+Swap -13 with 14 then swap -21 with 18 and then swap -20 to with 30.
