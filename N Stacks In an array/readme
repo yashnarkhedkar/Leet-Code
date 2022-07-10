@@ -22,7 +22,7 @@ You do not need to print anything, it has already been taken care of. Just imple
 Constraints :
 1 <= N <= S <= 1000
 1 <= Q <= 10^5 
-1 <= P <= 2
+1 <= P <= 2 
 1 <= X <= 10^5
 
 Time Limit: 1 sec
