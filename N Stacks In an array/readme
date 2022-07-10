@@ -4,7 +4,7 @@ push(X, M): Pushes an element X into the Mth stack. Returns true if the element 
 pop(M): Pops the top element from Mth Stack. Returns -1 if the stack is empty, otherwise, returns the popped element.
 Two types of queries denote these operations :
 Type 1: for push(X, M) operation.
-Type 2: for pop(M) operation.
+Type 2: for pop(M) operation. 
 Input Format :
 The first line of input contains three space-separated integers ‘N’, ‘S’ and ‘Q’ denoting the number of stacks, the size of the array and number of queries, respectively. 
 
