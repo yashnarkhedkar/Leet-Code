@@ -24,7 +24,7 @@ Constraints :
 1 <= Q <= 10^5 
 1 <= P <= 2 
 1 <= X <= 10^5
-
+ 
 Time Limit: 1 sec
 
 Where ‘S’ represents the size of the array, ‘N’ represents the number of stacks, ‘Q’ represents the number of queries, ‘P’ represents the type of operation and ‘X’ represents the element.
