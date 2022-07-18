@@ -1,0 +1,58 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+
+ // } Driver Code Ends
+class Solution {
+  public:
+    int checkRedundancy(string s) {
+        stack<char>st;
+        
+        for(int i = 0; i < s.length(); i++){
+          char ch = s[i];
+          if(ch == '(' || ch == '+' || ch == '-' || ch == '*' || ch == '/')
+          {
+            st.push(ch);
+          }
+          
+          else{
+              if(ch == ')'){
+                  bool ans = 1;
+                  while(st.top() != '('){
+                      char top = st.top();
+                      if(top == '+' || top == '-' || top == '*' || top == '/'){
+                          ans = 0;
+                      }
+                      st.pop();
+                  }
+                  if(ans){
+                      return true;
+                  }
+                  st.pop();
+              }
+          }
+        }
+        return false;
+    }
+};
+
+
+// { Driver Code Starts.
+
+int main(){
+    int t;
+    scanf("%d",&t);
+    while(t--){
+        
+    
+        string s; 
+        cin>>s;
+        
+        Solution obj;
+        int res = obj.checkRedundancy(s);
+        
+        cout<<res<<endl;
+        
+    }
+}
+  // } Driver Code Ends
